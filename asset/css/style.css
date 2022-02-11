@@ -6,21 +6,25 @@
 }
 
 body{
-    /* max-width: 1440px; */
-    /* margin: 0 auto; */
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
+/* HEADER */
 header{
+    position: fixed;
+    top: 0;
+    right: 0;
     background-color: lightgray;
     width: 100%;
     height: 8vh;
-    position: fixed;
 }
  /* LOGO E PULSANTI */
 .head{
@@ -31,6 +35,7 @@ header{
 .logo{
     background-color: red;
     float: left;
+    z-index: 2;
 }
 
 .half{
@@ -69,4 +74,15 @@ header{
 .box{
     width: 100%;
     height: 550px;
+}
+/* HEADER */
+
+/* MAIN */
+
+/* FIRST SECTION */
+.plane{
+    width: 65%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: lightgray;
 }
