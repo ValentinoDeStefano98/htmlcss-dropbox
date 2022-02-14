@@ -412,11 +412,126 @@ header{
 /* FOURTH SECTION */
 
 .team{
-    width: 65%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 150px auto;
     height: 700px;
     background-color: lightgray;
     border: 1px solid black;
+}
+
+.team-header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.team-header h2{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+.team .team-container{
+    border: 1px solid black;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.team-container .square{
+    border: 1px solid black;
+    height: 100%;
+}
+
+.team-container .s1{
+    width: 30%;
+    float: left;
+}
+
+.team-container .s3{
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.team-container .s2{
+    width: 40%;
+    float: left;
+    border: 1px solid black;
+}
+
+.s2 div{
+    margin: 0 20px;
+}
+
+.s2 img{
+    padding: 40px 0;
+    width: 30%;
+}
+
+.s2 hr{
+    width: 15%;
+    margin-bottom: 40px;
+}
+
+.s2 p{
+    padding-bottom: 40px;
+}
+
+.minisquare{
+    border: 1px solid black;
+    height: 30%;
+}
+
+.minisquare img{
+    width: 70%;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    z-index: 5;
+}
+
+.center{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.designit{
+    background-color: #A2D39B;
+
+}
+
+.asu{
+    background-color: #60092B;
+}
+
+.florida{
+    background-color: #0093CE;
+}
+
+.topps{
+    background-color: #FF1B1C;
+}
+
+.bicicle{
+    background-color: #D50120;
+}
+
+.hearst{
+    background-color: #B4D0E7;
+}
+
+.planet{
+    background-color: #0D2481;
+}
+
+.clear{
+    background-color: #FFD830;
 }
 
 .faq{
