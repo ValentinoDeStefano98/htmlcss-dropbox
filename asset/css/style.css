@@ -246,10 +246,6 @@ header{
     color: white;
 }
 
-.funzionality-pack .free-trial-shop .shop{
-    color: #0161FF;
-}
-
 .recap-plan h3{
     padding-top: 20px;
     padding-bottom: 30px;
@@ -269,13 +265,101 @@ header{
     color: #0161FF;
 }
 
-.partner{
-    width: 65%;
-    margin: 0 auto;
-    height: 600px;
-    background-color: lightgray;
+.enterprise{
+    margin-top: 40px;
+}
+
+.enterprise .pack-header{
     border: 1px solid black;
 }
+
+.enterprise-container{
+    border: 1px solid black;
+    /* height: 250px; */
+}
+
+.enterprise-container .description{
+    width: 74%;
+    height: 100%;
+    float: left;
+}
+
+.enterprise-container .contact{
+    width: 26%;
+    height: 100%;
+    float: left;
+}
+
+.enterprise-container .contact a{
+    display: inline-block;
+    padding: 15px ;
+    width: 95%;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #0161FF;
+    color: white;
+}
+
+.enterprise-container .description h2{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.enterprise-container .description h3{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.enterprise-container .description p{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.enterprise-container .description p{
+    padding-bottom: 25px;
+}
+/* SECOND SECTION */
+
+/* THIRD SECTION */
+.partner{
+    width: 80%;
+    margin: 130px auto;
+    /* height: 600px; */
+    /* background-color: lightgray;
+    border: 1px solid black; */
+}
+
+.block-container{
+    /* height: 100%; */
+    /* border: 1px solid black; */
+}
+
+.block{
+    width: 50%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    float: left;
+}
+
+.img img{
+    width: 100%;
+}
+
+.block-container .trust div{
+    margin: 20px 20px;
+}
+
+.block-container .trust div h2{
+    padding-bottom: 20px;
+}
+
+.block-container .trust div a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+/* THIRD SECTION */
 
 .business{
     width: 65%;
