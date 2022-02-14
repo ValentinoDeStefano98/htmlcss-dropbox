@@ -29,7 +29,7 @@ ul li{
 a{
     text-decoration: none;
     padding: 0 20px;
-    font-size: 20px;
+    font-size: 16px;
     color: black;
 }
 /* GENERAL */
@@ -37,7 +37,9 @@ a{
 /* HEADER */
 header{
     width: 100%;
+    min-width: 1175px;
     position: fixed;
+    z-index: 5;
     top: 0;
     right: 0;
     background-color: white;
@@ -67,27 +69,26 @@ header{
     padding: 20px 0;
 }
 
-#button{
-    padding: 5px 20px;
+.button{
+    padding: 10px 20px;
     margin-right: 15px;
     background-color: #0161FF;
     color: white;
 }
- /* HEADER */
+/* HEADER */
 
- /* MAIN */
+/* MAIN */
 
 /* FIRST SECTION */
 .section-title h1{
-    font-size: 3em;
+    font-size: 4.2em;
     padding: 20px 0;
 }
 .hero{
     background-color: #B4D0E7;
     margin-top: 5%;
     width: 100%;
-    height: 70vh;
-    border: 1px solid black;
+    height: 55vh;
 }
 
 .hero-container{
@@ -96,32 +97,63 @@ header{
     height: 100%;
 }
 
-.box{
+/* .box{
     width: 100%;
     height: 90%;
-    background-color: aqua;
     border: 1px solid black;
-}
+} */
 
 .free-trial{
-    width: 50%;
+    width: 35%;
     height: 80%;
-    background-color: aquamarine;
     float: left;
 }
 
-.header-img{
-    width: 50%;
+.hero-img{
+    width: 65%;
     height: 105%;
-    background-color: brown;
     float: left;
 }
 
+.hero-img img{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.free-trial p{
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.free-trial .button{
+    background-color: #0161FF;
+    color: white;
+    padding: 10px 20px;
+}
+
+.free-trial span{
+    display: block;
+    margin-top: 30px;
+}
+
+.fa-arrow-down{
+    margin-top: 30px;
+    font-size: 2.5em;
+}
+/* FIRST SECTION */
+
+/* SECOND SECTION */
 .plane{
     width: 65%;
     margin: 0 auto;
     height: 1100px;
     background-color: lightgray;
+}
+
+.section-title h2{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 2em;
 }
 
 .planes-container{
