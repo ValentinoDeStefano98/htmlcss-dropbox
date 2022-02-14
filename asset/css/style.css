@@ -361,13 +361,55 @@ header{
 }
 /* THIRD SECTION */
 
+/* FOURTH SECTION */
 .business{
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
-    height: 1000px;
-    background-color: lightgray;
-    border: 1px solid black;
+    /* height: 1000px; */
+    /* background-color: lightgray; */
+    /* border: 1px solid black; */
 }
+
+.business h2{
+    font-size: 2.5em;
+}
+
+.business .raw{
+    /* height: 500px;
+    border: 1px solid black; */
+    margin-top: 60px;
+}
+
+.business .raw .column{
+    /* border: 1px solid black; */
+    /* height: 100%; */
+    width: calc(90% / 3);
+}
+
+.business .raw .c1{
+    float: left;
+}
+
+.business .raw .c2{
+    float: left;
+    margin-left: calc(10% / 2);
+    margin-right: calc(10% / 2);
+}
+
+.business .raw .c3{
+    float: left;
+}
+
+.business .column img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.business .column h3{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+/* FOURTH SECTION */
 
 .team{
     width: 65%;
