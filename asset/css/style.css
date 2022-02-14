@@ -26,7 +26,7 @@ ul li{
     font-weight: 400;
 }
 
-a{
+.modify-a{
     text-decoration: none;
     padding: 0 20px;
     font-size: 16px;
@@ -233,6 +233,21 @@ header{
 .funzionality-pack .free-trial-shop hr{
     margin-top: 30px;
     width: 20%;
+}
+
+.funzionality-pack .free-trial-shop div{
+    background-color: #0161FF;
+    text-align: center;
+    height: 40px;
+}
+
+.funzionality-pack .free-trial-shop .trial{
+    line-height: 40px;
+    color: white;
+}
+
+.funzionality-pack .free-trial-shop .shop{
+    color: #0161FF;
 }
 
 .recap-plan h3{
