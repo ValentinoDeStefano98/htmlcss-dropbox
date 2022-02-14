@@ -144,10 +144,8 @@ header{
 
 /* SECOND SECTION */
 .plane{
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
-    height: 1100px;
-    background-color: lightgray;
 }
 
 .section-title h2{
@@ -156,15 +154,23 @@ header{
     font-size: 2em;
 }
 
+.section-title form .second-radio{
+    margin-left: 20px;
+}
+
+.section-title form{
+    padding-bottom: 40px;
+}
+
 .planes-container{
     width: 100%;
     height: 90%;
 }
 
 .pack{
-    height: 100%;
-    width: calc(95% / 3);
-    background-color: blue;
+    min-height: 1024px;
+    width: calc(96% / 3);
+    /* background-color: blue; */
     border: 1px solid black;
     float: left;
 }
@@ -174,11 +180,78 @@ header{
 }
 
 .standard{
-    margin-right: calc(5% / 2);
-    margin-left: calc(5% /2);
+    margin-right: calc(4% / 2);
+    margin-left: calc(4% /2);
 }
 
 .advanced{
+}
+
+.pack-main{
+    margin: 20px;
+}
+
+.info-pack{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.info-pack h2{
+    padding-bottom: 10px;
+}
+
+.info-pack span{
+    display: block;
+}
+
+.pack-header{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.pack-header i{
+    padding: 10px 0;
+}
+
+.funzionality-pack div{
+    padding-bottom: 20px;
+}
+
+.funzionality-pack .free-trial-shop{
+    padding: 20px 0;
+}
+
+.funzionality-pack .free-trial-shop p{
+    padding-top: 30px;
+}
+
+.funzionality-pack :nth-child(3) p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.funzionality-pack .free-trial-shop hr{
+    margin-top: 30px;
+    width: 20%;
+}
+
+.recap-plan h3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.recap-plan li{
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.recap-plan li p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recap-plan li i{
+    color: #0161FF;
 }
 
 .partner{
