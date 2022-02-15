@@ -36,7 +36,6 @@ ul .head-list{
 /* GENERAL */
 
 /* EFFECTS */
-
 .underline:hover{
     text-decoration: underline;
 }
@@ -65,7 +64,6 @@ ul .head-list{
 /* HEADER */
 header{
     min-width: 1440px;
-    /* max-width: 1440px; */
     position: fixed;
     z-index: 5;
     top: 0;
@@ -193,21 +191,13 @@ header{
 .pack{
     min-height: 1024px;
     width: calc(96% / 3);
-    /* background-color: blue; */
-    border: 1px solid black;
+    border: 1px solid lightgray;
     float: left;
-}
-
-.professional{
-
 }
 
 .standard{
     margin-right: calc(4% / 2);
     margin-left: calc(4% /2);
-}
-
-.advanced{
 }
 
 .pack-main{
@@ -227,8 +217,16 @@ header{
     display: block;
 }
 
+.info-pack .price{
+    font-weight: bolder;
+}
+
+.info-pack .date{
+    color: #6D7B89;
+}
+
 .pack-header{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
     text-align: center;
 }
 
@@ -298,7 +296,6 @@ header{
 
 .enterprise-container{
     border: 1px solid black;
-    /* height: 250px; */
 }
 
 .enterprise-container .description{
