@@ -291,11 +291,11 @@ header{
 }
 
 .enterprise .pack-header{
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
 .enterprise-container{
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
 .enterprise-container .description{
@@ -344,20 +344,10 @@ header{
 .partner{
     width: 80%;
     margin: 130px auto;
-    /* height: 600px; */
-    /* background-color: lightgray;
-    border: 1px solid black; */
-}
-
-.block-container{
-    /* height: 100%; */
-    /* border: 1px solid black; */
 }
 
 .block{
     width: 50%;
-    /* height: 100%; */
-    /* border: 1px solid black; */
     float: left;
 }
 
@@ -386,9 +376,10 @@ header{
 .business{
     width: 80%;
     margin: 0 auto;
-    /* height: 1000px; */
-    /* background-color: lightgray; */
-    /* border: 1px solid black; */
+}
+
+.c1 a{
+    color: black;
 }
 
 .business h2{
@@ -396,8 +387,6 @@ header{
 }
 
 .business .raw{
-    /* height: 500px;
-    border: 1px solid black; */
     margin-top: 60px;
 }
 
