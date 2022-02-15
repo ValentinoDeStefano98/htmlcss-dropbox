@@ -116,7 +116,8 @@ header{
 }
 
 .hero-img img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     padding-top: 30px;
 }
 
@@ -342,7 +343,8 @@ header{
 }
 
 .img img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .block-container .trust div{
@@ -401,7 +403,8 @@ header{
 }
 
 .business .column img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     padding-bottom: 20px;
 }
 
@@ -419,10 +422,6 @@ header{
     /* border: 1px solid black; */
 }
 
-.s1 img{
-    display: inline-block;
-}
-
 .team-header{
     width: 80%;
     margin: 0 auto;
@@ -434,55 +433,55 @@ header{
 }
 
 .team .team-container{
-    /* border: 1px solid black; */
-    /* height: 100%; */
     margin-top: 40px;
+    height: 400px;
 }
 
 .team-container .square{
-    /* border: 1px solid black; */
-    /* height: 100%; */
+    height: 100%;
 }
 
 .team-container .s1{
-    width: 30%;
+    width: 25%;
     float: left;
-    /* height: 100%; */
-}
-
-.team-container .s3{
-    width: 30%;
-    float: left;
-    /* height: 100%; */
-}
+} 
 
 .team-container .s2{
-    width: 40%;
+    width: 50%;
     float: left;
     background-color: #F5F5F5;
+    overflow-y: auto;
+} 
+
+.team-container .s3{
+    width: 25%;
+    float: left;
 }
 
-.s2 div{
-    max-height: 60%;
-    margin: 0 20px;
-    overflow: scroll;
+.row{
+    height: 50%;
 }
 
-.s2 img{
-    padding: 40px 0;
-    width: 30%;
+.center{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
 }
 
-.s2 hr{
-    width: 15%;
-    margin-bottom: 40px;
+.s1 .row .center img{
+    width: 55%;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    text-align: center;
 }
 
-.s2 p{
-    padding-bottom: 40px;
-}
-
-.minisquare img{
+.s3 .row .center img{
     width: 55%;
     top: 50%;
     bottom: 50%;
@@ -498,17 +497,9 @@ header{
     filter: invert(100%) sepia(97%) saturate(13%) hue-rotate(237deg) brightness(104%) contrast(104%);
 }
 
-.center{
-    width: 50%;
-    height: 200px;
-    float: left;
-    position: relative;
-}
-
 .designit{
     background-color: #A2D39B;
     box-shadow:0 0 0 8px #D0E9CD inset;
-
 }
 
 .asu{
@@ -539,11 +530,59 @@ header{
     background-color: #FFD830;
 }
 
+.s2 div{
+    max-height: 60%;
+    margin: 0 20px;
+}
+
+.s2 img{
+    padding: 40px 0;
+    width: 30%;
+}
+
+.s2 hr{
+    width: 15%;
+    margin-bottom: 40px;
+}
+
+.s2 p{
+    padding-bottom: 40px;
+}
+
+/*  */
+
+/* .s3 img{
+    width: 55%;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+} */
+
+
+/*  */
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
 .team-footer{
     background-color: #B4D0E7;
     width: 100%;
     /* height: 350px; */
-}
+} */
 
 .team-footer .rec{
     /* height: 100%; */
