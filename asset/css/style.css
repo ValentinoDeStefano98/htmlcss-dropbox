@@ -20,7 +20,7 @@ body{
     clear: both;
 }
 
-ul li{
+ul .head-list{
     display: inline-block;
     list-style: none;
     font-weight: 400;
@@ -618,5 +618,64 @@ footer{
     width: 100%;
     background-color: black;
     height: 450px;
+}
+
+footer .footer-container{
+    height: 80%;
+    /* border: 1px solid white; */
+    padding-right: 130px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.footer-section{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid white; */
+    float: left;
+    margin-bottom: 5px;
+    color: white;
+}
+
+footer .footer-container hr{
+    border-color: white;
+    margin-left: 20px;
+    width: 10%;
+}
+
+.footer-section ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-nav{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-nav h3{
+    padding: 20px 0;
+}
+
+.fa-earth-americas{
+    color: white;
+}
+
+.fa-angle-up{
+    color: white;
+}
+
+.language{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.language span{
+    color: white;
 }
 /* FOOTER */
