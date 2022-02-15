@@ -391,8 +391,6 @@ header{
 }
 
 .business .raw .column{
-    /* border: 1px solid black; */
-    /* height: 100%; */
     width: calc(90% / 3);
 }
 
@@ -427,12 +425,15 @@ header{
     width: 100;
     margin: 150px auto;
     height: 700px;
-    /* border: 1px solid black; */
 }
 
 .team-header{
     width: 80%;
     margin: 0 auto;
+}
+
+.team-header a{
+    color: #0161FF;
 }
 
 .team-header h2{
@@ -572,12 +573,12 @@ header{
     font-size: 2em;
     text-align: center;
     padding: 100px 0;
+    color: #641232;
 }
 
 .team-footer .r2{
     width: 30%;
     height: 100%;
-    /* border: 1px solid black; */
     float: left;
 }
 
@@ -593,10 +594,7 @@ header{
 .faq{
     width: 80%;
     margin: 0 auto;
-    /* height: 600px; */
     padding: 90px 0;
-    /* background-color: lightgray;
-    border: 1px solid black; */
 }
 
 .faq h2{
@@ -606,8 +604,6 @@ header{
 
 .faq .difference{
     margin-top: 20px 0;
-    /* border-top: 1px solid black; */
-    /* border-bottom: 1px solid black; */
 }
 
 .difference .title{
@@ -615,9 +611,21 @@ header{
     padding: 35px 0;
 }
 
+.hidden{
+    display: none;
+}
+
+.hidden p{
+    padding-bottom: 20px;
+}
+
 .difference .icon{
     float: right;
     padding: 35px 10px 0;
+}
+
+.difference:hover + .hidden{
+    display: block;
 }
 /* MAIN */
 
